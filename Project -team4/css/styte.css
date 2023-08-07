@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c1baba;
+}
+form{
+    display: flex;
+    width: 800px;
+    margin-top: 50px;
+
+    border-radius: 20px;
+}
+.left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px;
+    background: rgb(0, 128, 129);
+    border-radius: 20px 0px 0px 20px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.form-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:rgb(0, 128, 129) ;
+    margin: 30px;
+}
+.right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: white;
+border-radius: 0px 20px 20px 0px;
+}
+.user-name,
+.user-password,
+.Example,
+.password{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.condition,
+.po{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+input[type=checkbox]{
+    margin-right: 10px;
+}
+.po>p:nth-child(2){
+    text-decoration: underline;
+    font-weight: thin;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+button{
+    width: 50%;
+    border: 1px solid  rgb(0, 128, 129);
+    border-radius: 60px;
+    height: 40px;
+    color: rgb(0, 128, 129) ;
+}
